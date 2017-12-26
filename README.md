@@ -1,29 +1,28 @@
 # Twittercount
 
-One Paragraph of project description goes here
+This program was originally built to get the tweet counts for ethereum specifically, using the official Twitter api. This program will get the number of tweets for a specific keyword that were generated from a designated time in the past up to the present time. 
 
-## Getting Started
+## Instructions
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+* Fill out the keys in hidden.py 
+* Run twittercount.py 
+* Enter the keyword
+* Limitations are noted in the Limitations section
 
 
 ### Limitations 
-* This program can bring forth accurate counts only when there are less than 100 tweets related to the certain keyword in the 2 minute timeframe 
+* This program can bring forth accurate counts only when there are less than 100 tweets generated in the 2 minute timeframe for the input keyword
 
 * The number of requests is limited to 180 which means it can only count up to 6 hours worth of data when set to 2 min timeframe
 
 
-### Prerequisites
+### Libraries 
+* urllib
+* ssl 
+* json 
+* datetime 
 
-What things you need to install the software and how to install them
 
-```
-Give examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -40,6 +39,5 @@ Add additional notes about how to deploy this on a live system
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* hidden.py, oauth.py, twurl.py by [Charles R. Severance] (https://www.py4e.com/code3)
+
