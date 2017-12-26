@@ -1,3 +1,10 @@
+''' File name: twittercount.py 
+    Author: Jae Hyun Moon 
+    Date created: 12/25/2017
+    Description: This program will get the number of tweets for a specific
+    keyword that were generated from a designated time in the past up to the present time
+'''
+
 import urllib.request, urllib.parse, urllib.error
 import twurl
 import ssl
