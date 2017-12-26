@@ -39,5 +39,5 @@ This program was originally built to get the tweet counts for ethereum specifica
 
 ## Acknowledgments
 
-* hidden.py, oauth.py, twurl.py by [Charles R. Severance] (https://www.py4e.com/code3)
+* hidden.py, oauth.py, twurl.py by Charles R. Severance, https://www.py4e.com/code3
 
